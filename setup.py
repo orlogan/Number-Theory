@@ -12,7 +12,7 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='Number Theory',
+    name='Number-Theory',
     version='0.1.0.dev',
     description='Simple Package for Number Theory Algorithms',
     long_description=readme,

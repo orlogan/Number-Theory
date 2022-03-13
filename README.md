@@ -18,3 +18,11 @@ source number_theory/bin/activate
 pip freeze --local > requirements.txt
 ```
 
+2. Run a terminal in the number_theory directory, and test code using the following
+
+```
+python -m unittest tests.test_basic
+```
+
+Note: test_basic is an example of a test module, you can replace it with any test file in /tests/
+
