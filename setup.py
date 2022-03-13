@@ -5,20 +5,20 @@
 from setuptools import setup, find_packages
 
 
-with open('README.rst') as f:
+with open('README.md') as f:
     readme = f.read()
 
 with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
-    version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    name='Number Theory',
+    version='0.1.0.dev',
+    description='Simple Package for Number Theory Algorithms',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Logan Reed',
+    author_email='me@loganreed.org',
+    url='https://github.com/orlogan/Number-Theory',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
