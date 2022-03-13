@@ -6,6 +6,9 @@ __pycache__/
 # Virtual Environment
 number_theory/
 
+# Drivers for Testing
+temp.py
+
 # C extensions
 *.so
 
